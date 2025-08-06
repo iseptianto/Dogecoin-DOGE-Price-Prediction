@@ -50,45 +50,6 @@ The data used is the historical price data for **Dogecoin (DOGE-USD)**, which is
   - **Deep Learning**: TensorFlow (Keras API)
   - **Preprocessing**: Scikit-learn
 
-### 🚀 Installation and Usage
-
-1.  **Clone this repository:**
-
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-    cd YOUR_REPOSITORY_NAME
-    ```
-
-2.  **Create and activate a virtual environment (highly recommended):**
-
-    ```bash
-    python -m venv venv
-    # Windows: .\venv\Scripts\activate | macOS/Linux: source venv/bin/activate
-    ```
-
-3.  **Install all required dependencies:**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4.  **Run the Jupyter Notebook to see the entire process:**
-
-    ```bash
-    jupyter notebook notebooks/dogecoin_price_prediction.ipynb
-    ```
-
-### 📁 Project Structure
-
-```
-.
-├── notebooks/
-│   └── dogecoin_price_prediction.ipynb  # Main notebook for analysis and modeling
-├── models/
-│   └── doge_lstm_model.h5               # The trained LSTM model file
-├── requirements.txt                     # List of Python dependencies
-└── README.md                            # This file
-```
 
 ### 🧠 Methodology and Model
 
